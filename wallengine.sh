@@ -11,7 +11,7 @@ fi
 echo $$ > "$PIDFILE"
 
 while true; do
-    feh --randomize --bg-fill ~/Git/gruvbox-wallpapers/
+    feh --randomize --bg-fill /path/to/wallpapers-folder #edit this
     sleep 120  # Sleep for 2 minutes (120 seconds)
 done
 
